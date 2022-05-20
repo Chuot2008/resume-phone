@@ -1,0 +1,125 @@
+HTML,
+body {
+    margin: 0;
+}
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    background-color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#menu_title {
+    background-color: red;
+    text-align: center;
+    padding: 60px;
+    margin: 0;
+}
+
+#photo_of_chuot {
+    width: 100%;
+    height: width;
+    flex: 100%;
+}
+
+#menu_photo {
+    width: 15%;
+    height: width;
+}
+
+#about_container {
+    flex-wrap: wrap;
+}
+
+.menu_left {
+    float: left;
+    flex: 60%;
+}
+
+.menu_right {
+    float: right;
+    flex: 60%;
+}
+
+#left_side {
+    flex: 100%;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+#right_side {
+    flex: 100%;
+    padding: 10px 20px;
+}
+
+#flex_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+table {
+    border-style: solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#move_to_right {
+    flex: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#edu {
+    padding-left: 0;
+}
