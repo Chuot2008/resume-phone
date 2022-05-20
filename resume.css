@@ -35,6 +35,10 @@ body {
     display: block;
 }
 
+#menu_content:hover {
+    background-color: rgb(155, 155, 155);
+}
+
 #menu_title {
     background-color: red;
     text-align: center;
@@ -53,10 +57,6 @@ body {
     height: width;
 }
 
-#about_container {
-    flex-wrap: wrap;
-}
-
 .menu_left {
     float: left;
     flex: 60%;
@@ -67,20 +67,13 @@ body {
     flex: 60%;
 }
 
-#left_side {
-    flex: 100%;
-    padding: 10px 20px;
-    background-color: white;
-}
-
-#right_side {
-    flex: 100%;
-    padding: 10px 20px;
-}
-
 #flex_container {
     display: flex;
     flex-wrap: wrap;
+}
+
+#contact {
+    margin-top: 8px;
 }
 
 footer {
@@ -122,4 +115,19 @@ table th {
 
 #edu {
     padding-left: 0;
+}
+
+#eduContainer,
+#scoresContainer {
+    display: block;
+    background-color: #f1f1f1;
+    padding: 20px;
+    flex: 100%
+}
+
+#aboutContainer,
+#hobbyContainer,
+#socialContainer {
+    padding: 20px;
+    flex: 100%
 }
